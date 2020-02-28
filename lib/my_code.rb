@@ -49,8 +49,6 @@ end
 
 reduce_to_all_true(source_array)
 true
-end
 
 reduce_to_any_true(source_array)
 true
-end
