@@ -50,5 +50,11 @@ true
 end
 
 reduce_to_any_true(source_array)
-true
+i=0
+value=false
+while i< source_array.length
+value=true if source_array[i]==true
+i+=1
+end
+value
 end
