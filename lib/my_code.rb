@@ -1,3 +1,5 @@
+source array=[]
+
 =begin
 
 map_to_negativize(source_array)
