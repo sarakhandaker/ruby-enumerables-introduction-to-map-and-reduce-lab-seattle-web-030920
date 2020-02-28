@@ -32,11 +32,9 @@ end
 newarr
 end
 
-def reduce_to_total(source_array, starting_point)
-  c= starting_point
+def reduce_to_total(source_array, starting_point=0)
 i=0
-total=c
-total=0 if c==nil
+total=starting_point
 while i< source_array.length
 total+= source_array[i]
 i+=1
