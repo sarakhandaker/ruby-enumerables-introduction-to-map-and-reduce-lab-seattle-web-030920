@@ -1,6 +1,5 @@
 
 source_array=[]
-=begin
 
 map_to_negativize(source_array)
 i=0
@@ -13,9 +12,7 @@ new arr
 end
 
 map_to_no_change(source_array)
-i=0
-newarr=source_array
-new arr
+source_array
 end
 
 map_to_double(source_array)
@@ -47,7 +44,6 @@ i+=1
 end
 total
 end
-=end
 
 reduce_to_all_true(source_array)
 true
