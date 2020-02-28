@@ -5,7 +5,7 @@ while i< source_array.length
 newarr[i]= -1*source_array[i]
 i+=1
 end
-new arr
+newarr
 end
 
 def map_to_no_change(source_array)
@@ -19,7 +19,7 @@ while i< source_array.length
 newarr[i]= 2*source_array[i]
 i+=1
 end
-new arr
+newarr
 end
 
 def map_to_square(source_array)
@@ -29,7 +29,7 @@ while i< source_array.length
 newarr[i]= source_array[i]*source_array[i]
 i+=1
 end
-new arr
+newarr
 end
 
 def reduce_to_total(source_array, starting_point)
