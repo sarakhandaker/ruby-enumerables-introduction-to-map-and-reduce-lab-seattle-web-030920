@@ -1,3 +1,5 @@
+=begin
+
 map_to_negativize(source_array)
 i=0
 newarr=[]
@@ -43,7 +45,7 @@ i+=1
 end
 total
 end
-
+=end
 
 reduce_to_all_true(source_array)
 true
