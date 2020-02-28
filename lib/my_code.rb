@@ -1,5 +1,5 @@
-source_array=[]
 
+source_array=[]
 =begin
 
 map_to_negativize(source_array)
