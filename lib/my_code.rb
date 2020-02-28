@@ -33,9 +33,10 @@ newarr
 end
 
 def reduce_to_total(source_array, starting_point)
+  c= starting_point
 i=0
-total=starting_point
-total=0 if starting_point==nil
+total=c
+total=0 if c==nil
 while i< source_array.length
 total+= source_array[i]
 i+=1
